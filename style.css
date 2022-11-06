@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*-- Main + tło + nav --*/
+
+.container-nav {
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+  position: relative;
+}
+
+nav li {
+  display: inline-block;
+  padding: 40px 30px;
+}
+
+nav li a {
+  color: white;
+  transition: color 0.5s;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav li a:hover {
+  color: #0099FF !important;
+}
+
+.first-bg {
+  background: url("mg6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+.overley {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0px;
+  transition: background-color 1.2s;
+}
+
+.first-bg:hover .overley {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.first-bg:hover nav li a {
+  color: rgba(255, 255, 255, .2);
+}
+.ovdiv1{
+  width: 100%;
+  height: 100px;
+}
+.ovdiv2{
+  width: 100%;
+  height: 600px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+}
+.ovdiv2 a{
+  margin-top: 200px;
+}
+.ovdiv2:hover{
+  width: 100%;
+  height: 600px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  opacity: 1;
+  transition:1.2s;
+}
+.ovdiv2 a:hover{
+  margin-top: 200px;
+}
+.ov-text{
+  margin-top: 220px;
+}
+.ov-button{
+  margin-top: 290px;
+  margin-left: -138px;
+}
+.button-first{
+  border: solid 3px white;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+.button-first:hover{
+  background-color: white;
+  color: #1f1f1f;
+  border: solid 3px white;
+}
+.hr{
+  height: 10px;
+}
+.as {
+  width: 200px;
+}
+
+/*-- Koniec Maina --*/
+
+/*-- Tekst pod mainem  --*/
+
+.main-text{
+  width: 100%;
+  height: 200px;
+  background: #1F1F1F;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.text{
+  position: relative;
+  top: 70px;
+  font-size:21px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.text a {
+  text-align: center;
+}
+.form{
+  height: 300px;
+}
+
+/*-- Koniec tekstu pod mainem --*/
+
+/*-- Wyszukiwarka--*/
+
+.form{
+  height: 250px;
+}
+.form-text{
+  text-align: center;
+  padding:  40px;
+  font-size:  20px;
+}
+.form-search{
+  display:flex;
+  justify-content:center;
+}
+input{
+  width: 350px;
+  border-radius: 12px;
+  height: 30px;
+  border: solid 2px #0099FF; 
+}
+.form-button{
+  height: 30px;
+  border: solid 2px #0099FF; 
+  border-radius: 12px;
+  width: 70px;
+  background-color: #0099FF;
+  margin-right: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.progress{
+  width: 100%;
+  height: 300px;
+}
+.h{
+  height: 2px;
+  border: none;
+  background-color: black;
+  width: 1%;
+  margin: auto;
+}
+
+.h:hover{
+  animation-name: anim1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+  0% {transform: scaleX(0);}
+  100% {transform: scaleX(85);}
+ 
