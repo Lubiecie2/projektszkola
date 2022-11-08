@@ -133,62 +133,294 @@ nav li a:hover {
 .text a {
   text-align: center;
 }
-.form{
-  height: 300px;
-}
+
 
 /*-- Koniec tekstu pod mainem --*/
 
 /*-- Wyszukiwarka--*/
 
 .form{
-  height: 250px;
+  height: 680px;
+}
+.form-title{
+  text-align: center;
+  margin-top: 60px;
+}
+.form-title a{
+  font-size: 25px;
 }
 .form-text{
-  text-align: center;
-  padding:  40px;
-  font-size:  20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
 }
-.form-search{
-  display:flex;
-  justify-content:center;
+.red{
+  margin: 0 30px;
+  color: #0099FF;
 }
-input{
-  width: 350px;
-  border-radius: 12px;
-  height: 30px;
-  border: solid 2px #0099FF; 
+.form-action{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
 }
-.form-button{
-  height: 30px;
-  border: solid 2px #0099FF; 
-  border-radius: 12px;
-  width: 70px;
-  background-color: #0099FF;
-  margin-right: 20px;
-  color: white;
-  font-size: 15px;
+.form-action a{
+  font-size: 20px;
+  margin: 0 30px;
+}
+.form-action form select {
+  border: solid 2px white;
+  border-radius: 5px;
+  font-size: 20px;
+  border: solid 2px white;
+}
+.input-data{
+  border: solid 2px white;
+  border-radius: 5px;
+  font-size: 20px;
+  border: solid 2px white;
+}
+.button-submit{
+  border: solid 2px white;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: white;
+}
+.button-submit:hover{
+  background-color: #E6E6E6;
+  color: #1f1f1f;
+}
+.form-border{
+  background-color: #003300;
+  margin: 40px auto;
+  width: 100%;
+  padding: 20px 0;
+}
+form{
+  width: 90%;
 }
 
-.progress{
+/*-- Koniec Formularza --*/
+
+/*-- Początek blue baru --*/
+
+
+
+.bar-red{
   width: 100%;
-  height: 300px;
+  height: 180px;
+  background-color: #003300;
+  margin: auto;
 }
-.h{
-  height: 2px;
-  border: none;
-  background-color: black;
-  width: 1%;
+.bar-title{
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  color: white;
+}
+.bar-text{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  color: white;
+}
+.special-ofert{
+  width: 100%;
+  height: 100px;
+}
+.special-ofert-text{
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 25px;
+  color: #1f1f1f;
+}
+.form-change-text{
+  color: white;
+}
+
+
+/*-- Koniec blue baru --*/
+
+/* --Specjalna oferta-- */
+
+
+.ofert{
+  width: 100%;
+  height: 750px;
+}
+.ofert-box{
+  display: flex;
+  justify-content: space-around;
+
+}
+.media-ofert{
+  width: 420px;
+  height: 560px;
+  background-color:#F1F1F1;
   margin: auto;
 }
 
-.h:hover{
-  animation-name: anim1;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+.ofert-name{
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+}
+.ofert-price{
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  text-decoration: line-through;
+}
+.ofert-rabat{
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  color: red;
+}
+.ofert-button{
+  text-align: center;
 }
 
-@keyframes anim1 {
-  0% {transform: scaleX(0);}
-  100% {transform: scaleX(85);}
- 
+.ofert-img{
+  width: 380px;
+  height: 360px;
+  margin: 20px auto;
+
+}
+.ofert-button{
+  border: solid 2px #0099ff;
+  width: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  font-size: 18px;
+
+}
+.ofert-button:hover{
+  background-color: #0099FF;
+  color: white;
+}
+.BMW-M2-CS{
+  background-image: url("auta/bmw/BMWM2.jpg");
+  background-size: cover;
+}
+.AUDI-RS5{
+  background-image: url("auta/bmw/AUDIRS7.jpg");
+  background-size: cover;
+}
+
+.Porsche
+{
+  background-image: url("auta/bmw/bmw4.jpg");
+  background-size: cover;
+}
+
+
+/* --Koniec specjalnej oferta-- */
+
+.crash{
+  width: 100%;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+}
+.crash-img{
+  background-image: url("auta/bmw/gówno.jpg");
+  width: 350px;
+  height: 320px;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+}
+.crash-text{
+  width: 650px;
+  height: 500px;
+  background-color: #1f1f1f;
+  position: relative;
+  left: -50px;
+}
+.crash-title{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  color: white;
+}
+.crash-font{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+
+
+.green-bar{
+  width: 100%;
+  height: 150px;
+  background-color: #003300;
+}
+.green-bar-text{
+  padding-top: 62px;
+}
+.green-bar-text p{
+  font-size: 26px;
+  color: white;
+  background-color: #003300;
+  text-align: center;
+}
+
+/*-- Koniec-green-bara -- */
+/*-- Mapa -- */
+
+.map-title{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+.map{
+  margin-left: 2%;
+}
+.map-text{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.map-adres{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.map-faq{
+  display: flex;
+  justify-content: space-around;
+}
+.faq{
+  display: flex;
+  flex-direction: column;
+}
+.a{
+  margin: 20px 0px;
+}
+.none{
+  width: 100%;
+  height: 150px;
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #1f1f1f;
+}
+
+.sociale{
+  padding: 30px 30px;
+  width: 200px;
+}
+.footer-sociale-text{
+  font-size: 18px;
+  color: white;
+  padding: 30px;
+}
+.sociale-img{
+  margin-top: 30px;
+  margin-left: 10px;
+}

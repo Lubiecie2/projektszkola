@@ -77,8 +77,8 @@
   padding:0 2%;
 }
 .media-background {
-  width: 280px;
-  height: 330px;
+  width: 380px;
+  height: 430px;
   background-color:#E6E6E6 ;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,10 @@
   border: 0.25em solid #CC3333;
   border-radius: 60vw;
 }
-
+.break{
+  width: 100%;
+  height: 100px;
+}
 
 
 
@@ -118,50 +121,50 @@
 
 
 .BMW-M8-CS{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("auta/bmw/BMWM8.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-X6M-CS{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("auta/bmw/bmwx6.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-M5-CS{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("auta/bmw/bmwtest2.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-SERIA-5{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("auta/bmw/mg7.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-M2-CS{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("BMW1.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-SERIA-3{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("BMW1.jpg");
   background-size: cover;
   margin: 10px auto;
 }
 .BMW-SERIA-1{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-image: url("BMW1.jpg");
   background-size: cover;
   margin: 10px auto;
